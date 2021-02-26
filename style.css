@@ -68,7 +68,7 @@ nav{
 }
 .box{
     width: 60vw;
-    height: 65vh;
+    height: 75vh;
     border-radius: 10px;
     margin: 10px;
     margin-right: 0;
@@ -95,7 +95,7 @@ nav{
     display: flex;
 }
 .faq{
-    height: 70vh;
+    height: 80vh;
     background: linear-gradient(to bottom right, #c31432, #240b36);
     border-radius: 10px;
     width: 80vw;
@@ -110,7 +110,7 @@ ul{
     margin-left: 3vw;
 }
 #query img{
-    height: 47vh;
+    height: 75vh;
     margin: 10px;
     border-radius: 10px;
 }
