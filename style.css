@@ -82,7 +82,7 @@ nav{
     margin: 10px;
     margin-left: 0;
     padding: 15px;
-    height: 113vh;
+    height: 133vh;
     width: 35vw;
     background: linear-gradient(to bottom right, #c31432, #240b36);
 }
@@ -95,7 +95,7 @@ nav{
     display: flex;
 }
 .faq{
-    height: 80vh;
+    height: 90vh;
     background: linear-gradient(to bottom right, #c31432, #240b36);
     border-radius: 10px;
     width: 80vw;
