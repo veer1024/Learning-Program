@@ -68,7 +68,7 @@ nav{
 }
 .box{
     width: 60vw;
-    height: 95vh;
+    height: 65vh;
     border-radius: 10px;
     margin: 10px;
     margin-right: 0;
@@ -82,7 +82,7 @@ nav{
     margin: 10px;
     margin-left: 0;
     padding: 15px;
-    height: 143vh;
+    height: 113vh;
     width: 35vw;
     background: linear-gradient(to bottom right, #c31432, #240b36);
 }
