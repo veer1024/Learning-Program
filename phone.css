@@ -1,0 +1,57 @@
+*{
+    font-size: 1.8vw;
+}
+#outermost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box, .smallBox{
+    width: 55vw;
+    padding: 2vw;
+}
+.smallBox{
+    height: 90vh;
+    margin: 0 auto;
+    padding: 1vw 2vw;
+}
+#query{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.faq{
+    padding: 0 1.5vw;
+    width: 70vw;
+}
+#query img{
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+    
+    /* Font-styling */
+    p, ul li{
+        font-size: 2vw;
+    }
+    h1, h2{
+        text-align: center;
+        color: black;
+        font-size: 4vw;
+    }
+    a{
+        font-size: 2.5vw;
+    }
+    h3{
+        font-size: 3vw;
+        color: black;
+    }
+    #logoText{
+        font-size: 3vw;
+    }
+    #register{
+        font-size: 2vw;
+    }
+}

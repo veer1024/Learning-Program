@@ -1,0 +1,142 @@
+/* Resetting CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+/* Navigation Bar */
+nav{
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+    padding: 0.25vw;
+}
+#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbarItems{
+    list-style: none;
+    margin: 5px 25px;
+}
+#navBar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#logoText{
+    font-size: 1.8vw;
+    position: absolute;
+    left: 8vw;
+}
+#logo{
+    height: 3vw;
+    position: absolute;
+    left: 2vw;
+    border-radius: 1.5vw;
+}
+#register{
+    font-size: 1.4vw;
+    border: black solid 2px;
+    border-radius: 10px;
+    background: transparent;
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+}
+#register:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Home */
+#outermost{
+    display: flex;
+}
+.outerBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box{
+    width: 60vw;
+    height: 95vh;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 0;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+}
+
+/* Side Bar For Learning Point */
+.smallBox{
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 15px;
+    height: 143vh;
+    width: 35vw;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+}
+
+/* FAQ Section */
+#query{
+    margin: 15px;
+    margin-top: 0;
+    border-radius: 10px;
+    display: flex;
+}
+.faq{
+    height: 70vh;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+    border-radius: 10px;
+    width: 80vw;
+    margin: 10px;
+}
+.faq ul li{
+    list-style: decimal;
+}
+ul{
+    font-size: 1.8vw;
+    color: black;
+    margin-left: 3vw;
+}
+#query img{
+    height: 47vh;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/* Font-styling */
+p, ul li{
+    font-size: 1.3vw;
+}
+h1, h2{
+    text-align: center;
+    color: black;
+    font-size: 3vw;
+}
+a{
+    font-size: 1.4vw;
+}
+h3{
+    font-size: 2vw;
+    color: black;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px;
+    color: black;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+}
